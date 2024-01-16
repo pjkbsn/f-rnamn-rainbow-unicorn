@@ -12,3 +12,6 @@ function wordReturner(name) {
 }
 ;
 console.log(wordReturner(person));
+for (var i = 0; i < animals.length; i++) {
+    console.log(wordReturner(animals[i]));
+}
