@@ -15,3 +15,14 @@ const randomShit: RandomShitType = {
 };
 
 console.log(randomShit);
+
+const person: string = 'Philip'
+
+
+
+function wordReturner(name: string): string {
+    return `Hej ${name}`
+};
+
+
+console.log(wordReturner(person));

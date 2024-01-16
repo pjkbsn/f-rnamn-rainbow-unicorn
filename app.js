@@ -6,3 +6,9 @@ var randomShit = {
     bool: false,
 };
 console.log(randomShit);
+var person = 'Philip';
+function wordReturner(name) {
+    return "Hej ".concat(name);
+}
+;
+console.log(wordReturner(person));
