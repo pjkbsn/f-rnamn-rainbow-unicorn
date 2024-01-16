@@ -18,15 +18,11 @@ console.log(randomShit);
 
 const person: string = 'Philip'
 
-
-
 function wordReturner(name: string): string {
     return `Hej ${name}`
 };
 
-
 console.log(wordReturner(person));
-
 
 for (let i = 0; i < animals.length; i++) {
     console.log(wordReturner(animals[i]));
